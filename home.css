@@ -1,0 +1,28 @@
+:root{
+    --color_black: #000;
+    --color_white: #fff;
+    --color_grey: rgb(153, 149, 149);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;    
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/* styling of nav with SALAH */
+
+/* styling of header with HICHAM */
+
+/* styling of section one with SALMA */
+
+/* styling of nav with TOUFIK */
