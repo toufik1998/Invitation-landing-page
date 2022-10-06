@@ -3,15 +3,15 @@
     --color_white: #fff;
     --color_grey: rgb(153, 149, 149);
 }
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins&family=Roboto&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     box-sizing: border-box;
 }
 
 body{
-    margin: 0;
-    font-family: 'Roboto', sans-serif;    
+    padding: 1rem 5rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a{
@@ -26,3 +26,132 @@ a{
 /* styling of section one with SALMA */
 
 /* styling of nav with TOUFIK */
+main section.cash-reward{
+    margin-bottom: 2rem;
+}
+
+main section.cash-reward .container-cards{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+
+
+main section.cash-reward .container-cards .card-two{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+    padding: 15px;
+}
+
+main section.cash-reward .container-cards .card-two  .heading h2{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+main section.cash-reward .container-cards .card img{
+    width: 100%;
+    height: 100%;
+}
+
+main section.cash-reward .container-cards .card-two .title {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+main section.cash-reward .container-cards .card-two .title i{
+    color:  #b23a60;
+}
+
+main section.cash-reward .container-cards .card-two p{
+    font-size: .8rem;
+    text-transform: capitalize;
+    color: #707070;
+}
+
+main section.cash-reward .container-cards .card-two .btn{
+    margin: 1rem auto;
+}
+
+.btn button{
+    background-image: linear-gradient(to right, #F1723E , #B23A96);
+    padding: 7px 1.2rem;
+    color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+
+/* styling of images section with TOUFIK */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+  
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+/* media query of images section */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}  
+  
+@media screen and (max-width: 767px) {
+    body{
+        padding: 0;
+    }
+
+    main section.cash-reward{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    main section.cash-reward .container-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;        
+    }
+
+    main section.cash-reward .container-cards .card{
+        margin-bottom: 3rem;
+    }
+
+    main section.cash-reward .container-cards .card-two{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+        margin-top: 1rem;
+    }
+
+    main section.cash-reward .container-cards .card img{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 2rem;
+        margin-top: 1rem;
+    }
+
+    
+}
