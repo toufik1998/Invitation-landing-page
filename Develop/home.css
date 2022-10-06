@@ -19,7 +19,79 @@ a{
 }
 
 
-/* styling of nav with SALAH */
+/* styling of nav with SALAH */ 
+    /*Navbar main section*/
+.NavBar ul li a{ /*Changing the color of the text in the navbar*/
+    color: #000;
+}
+.NavBar { 
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    align-items: center;
+}
+
+    /*Working on the left side of navbar*/
+.LeftNavBar{    
+    display: flex;
+    align-items: center;
+}
+.NavBar h4{ /*removed the margin from the Invitation TEXT/LOGO*/
+    margin: 0px;
+}
+.LeftNavBar ul{
+    display: flex;
+    list-style: none;
+}
+.LeftNavBar ul li{
+    padding: 0 8px;
+}
+.LeftNavBar ul li i{
+    color: grey;
+    margin-left: 2px;
+    font-size: small;
+}
+
+    /*Working on the right side of navbar*/
+.RightNavBar ul li{
+    font-weight: bold;
+    padding: 0 8px;    
+}
+.RightNavBar ul{
+    display: flex;  
+    list-style: none; 
+}
+li.SignUp a {
+    color: #fff !important; /*making it more important than the color of main nav*/
+    padding: 1rem 1rem;
+    background-color: #000;
+    border-radius: 5px;
+}
+    /*Tablet*/
+@media (max-width: 991.98px){
+    .NavBar{
+        margin-left: 0rem;
+        margin-right: 0rem;
+        flex-direction: column;
+    }
+    .LeftNavBar{
+        margin-bottom: 1rem;
+    }
+    .LeftNavBar ul{
+        padding: 0rem;
+    }
+    .NavBar h4{
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .RightNavBar{
+        margin-bottom: 1rem;
+    }
+}
+    /*Phone*/
+@media 
 
 /* styling of header with HICHAM */
 
