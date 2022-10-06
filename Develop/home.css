@@ -90,11 +90,15 @@ li.SignUp a {
         margin-bottom: 1rem;
     }
 }
-    /*Phone*/
-@media 
 
 /* styling of header with HICHAM */
 
 /* styling of section one with SALMA */
 
 /* styling of nav with TOUFIK */
+
+/* CopyWrite Section SALAH */
+.CopyRight p{
+    text-align: center;
+    color: grey;
+}
