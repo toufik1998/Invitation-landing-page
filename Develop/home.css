@@ -10,7 +10,8 @@
 }
 
 body{
-    margin: 0;
+    
+    margin: 1rem 5rem;
     font-family: 'Roboto', sans-serif;    
 }
 
@@ -22,6 +23,70 @@ a{
 /* styling of nav with SALAH */
 
 /* styling of header with HICHAM */
+#headernav{
+    display: flex;
+    justify-content:space-between; 
+    background-color: black;
+    width: auto;
+}
+#headernav .article1{
+    margin-left: 3rem;
+    margin-top: 1rem;
+    color: white;
+}
+#headernav .headerimg img{
+    width: 22rem;
+    margin-right: 1rem;
+    margin-top:.3rem ;
+}
+#headernav .article1 label{
+    border: .5rem solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+#headernav .article1 label input{
+    border: none;
+}
+#headernav .article1 button{
+    margin-left: .6rem; 
+    padding: .6rem 1.2rem;
+    border-radius:5px ;
+    background-image: linear-gradient(to right,#f1723e,#b23a96);
+    color:var(--color_white);
+}
+
+@media (max-width: 768px) { 
+#headernav{
+    display: block;
+}
+#headernav .headerimg img{
+    width:15rem ;
+    margin-left: 13rem;
+}
+} 
+@media (max-width: 575px){
+    body{
+        margin: 0;
+    }
+    #headernav{
+        display: block;
+    }
+    #headernav .article1{
+        margin-right: 3rem;
+        text-align: center;
+    }
+    #headernav .article1 button {
+        margin: 1rem auto;
+        box-shadow: none; 
+    }
+    #headernav .headerimg img{
+        width:10rem;
+        margin-left: 8rem;
+    }
+}
+
+
+
 
 /* styling of section one with SALMA */
 
