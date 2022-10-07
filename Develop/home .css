@@ -368,3 +368,78 @@ main section.cash-reward .container-cards .card-two .btn{
     text-align: center;
     color: rgb(98, 96, 96);
 }
+
+/* styling of section main with HICHAM */
+#header-section{
+    display: flex;
+    justify-content:space-between; 
+    background-color: black;
+    width: auto;
+}
+#header-section .section1{
+    margin-left: 3rem;
+    margin-top: .1rem;
+    color: white;
+}
+#header-section .sectionimg img{
+    width: 22rem;
+    margin-right: 1rem;
+    margin-top:.3rem ;
+}
+#header-section .section1  i {
+    margin-right: .3rem;
+
+}
+#header-section .section1 label{
+    border: .5rem solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+#header-section .section1 label input{
+    border: none;
+}
+#header-section .section1 button{
+    margin-left: .6rem; 
+    padding: .6rem 1.2rem;
+    border-radius:5px ;
+    background-image: linear-gradient(to right,#f1723e,#b23a96);
+    color:var(--color_white);
+}
+.fa-brands {
+    color: blue;
+}
+
+@media (max-width: 941px) { 
+    #header-section{
+        display: block;
+    }
+    #header-section .section1{
+        padding: 1rem 0;
+    }
+    #header-section .sectionimg img{
+        width:15rem ;
+        margin-left: 13rem;
+    }
+} 
+@media (max-width: 575px){
+    body{
+        margin: 0;
+    }
+    #header-section{
+        display: block;
+    }
+    #header-section .section1{
+        margin-right: 3rem;
+        text-align: center;
+        padding: 1rem 0;
+    }
+    #header-section .section1 button {
+        margin: 1rem auto;
+        box-shadow: none; 
+    }
+    #header-section .sectionimg img{
+        width:10rem;
+        margin-left: 8rem;
+    }
+}
+/* styling of section main with HICHAM */
