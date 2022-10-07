@@ -97,7 +97,7 @@ li.SignUp a {
     display: flex;
     justify-content:space-between; 
     background-color: black;
-    width: auto;
+    padding: .6rem 0;
 }
 #headernav .article1{
     margin-left: 3rem;
@@ -123,6 +123,8 @@ li.SignUp a {
     border-radius:5px ;
     background-image: linear-gradient(to right,#f1723e,#b23a96);
     color:var(--color_white);
+    border: none;
+    outline: none;
 }
 
 @media (max-width: 768px) { 
@@ -168,9 +170,10 @@ main section.cash-reward{
 
 main section.cash-reward .container-cards{
     display: flex;
-    width: 100%;
-    height: 400px;
+   /* width: 100%;
+    height: 400px;*/
     justify-content: space-evenly;
+    align-items: center;
 }
 
 
@@ -188,6 +191,7 @@ main section.cash-reward .container-cards .card-two{
 main section.cash-reward .container-cards .card-two  .heading h2{
     text-transform: capitalize;
     font-weight: bold;
+    margin-bottom: 2rem;
 }
 
 main section.cash-reward .container-cards .card img{
@@ -208,15 +212,17 @@ main section.cash-reward .container-cards .card-two p{
     font-size: .8rem;
     text-transform: capitalize;
     color: #707070;
+    margin-bottom: 2rem;
+    line-height: 2;
 }
 
 main section.cash-reward .container-cards .card-two .btn{
-    margin: 1rem auto;
+    margin: 1.5rem auto;
 }
 
 .btn button{
     background-image: linear-gradient(to right, #F1723E , #B23A96);
-    padding: 7px 1.2rem;
+    padding: 1rem 1.8rem;
     color: #fff;
     border: none;
     outline: none;
@@ -265,12 +271,9 @@ main section.cash-reward .container-cards .card-two .btn{
     main section.cash-reward .container-cards{
         display: flex;
         justify-content: space-between;
-        flex-direction: column;        
+        flex-direction: column;  
     }
 
-    main section.cash-reward .container-cards .card{
-        margin-bottom: 3rem;
-    }
 
     main section.cash-reward .container-cards .card-two{
         display: flex;
@@ -279,14 +282,11 @@ main section.cash-reward .container-cards .card-two .btn{
         flex-direction: column;
         width: 100%;
         height: 50%;
-        margin-top: 1rem;
     }
 
     main section.cash-reward .container-cards .card img{
         height: 100%;
         width: 100%;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
     }
 
     
@@ -312,11 +312,18 @@ main section.cash-reward .container-cards .card-two .btn{
     display: flex;
     justify-content: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 1rem 0;
     background-color: #000;
     padding-top: 30px;
     padding-right: 30px;
     width: 100%;
     flex-wrap: wrap;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 .info1 ul {
     color: #fff;
@@ -326,14 +333,21 @@ main section.cash-reward .container-cards .card-two .btn{
     margin-top: 10px;
     color:black;
     background-color: #fff;
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
+
 @media (max-width: 991.98px) {
   .info{
     display: flex;
     justify-content: center;
     justify-content: space-between;
-    flex-direction: column;
-    padding: 0;
+   
   } 
   body{
     margin: 0;
@@ -352,6 +366,5 @@ main section.cash-reward .container-cards .card-two .btn{
 /* CopyWrite Section SALAH */
 .CopyRight p{
     text-align: center;
-    color: grey;
+    color: rgb(98, 96, 96);
 }
-
