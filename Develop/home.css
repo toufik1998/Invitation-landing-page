@@ -159,7 +159,7 @@ li.SignUp a {
 
 
 
-/* styling of section one with SALMA */
+
 
 
 /* styling of nav with TOUFIK */
@@ -295,7 +295,7 @@ main section.cash-reward .container-cards .card-two .btn{
     
 }
 
-
+/* styling of section one with SALMA */
 .sponsors img{
    width: 10%;
    justify-content: center;
@@ -306,6 +306,7 @@ main section.cash-reward .container-cards .card-two .btn{
     justify-content: space-around;
     margin: 1rem auto 2rem;
 }
+/*Footer SALMA*/
 .info{
     display: flex;
     justify-content: center;
